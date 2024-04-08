@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <servlet>
+    <servlet-name>AddProductServlet</servlet-name>
+    <servlet-class>AddProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddProductServlet</servlet-name>
+    <url-pattern>/AddProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PrintBillServlet</servlet-name>
+    <servlet-class>PrintBillServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PrintBillServlet</servlet-name>
+    <url-pattern>/PrintBillServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ClearProductsServlet</display-name>
+    <servlet-name>ClearProductsServlet</servlet-name>
+    <servlet-class>ClearProductsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClearProductsServlet</servlet-name>
+    <url-pattern>/ClearProductsServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
